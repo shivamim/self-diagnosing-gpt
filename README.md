@@ -41,3 +41,32 @@ See `examples/demo.py` for complete demonstrations:
 - Neuron ablation experiments
 
 ## Architecture
+Input → Embeddings → Transformer Blocks → LayerNorm
+├─→ LM Head → Next Token
+└─→ Confidence Head → Uncertainty
+
+## Documentation
+
+- **Training**: Character-level GPT on Shakespeare dataset
+- **Confidence**: Supervised by normalized entropy
+- **Interpretability**: Forward hooks on transformer blocks
+- **Ablation**: Context manager for neuron zeroing
+
+## Citation
+```bibtex
+@software{self_diagnosing_gpt2024,
+  author = {Shivam Shukla},
+  title = {Self-Diagnosing GPT with Mechanistic Interpretability},
+  year = {2026},
+  url = {https://github.com/shivamim/self-diagnosing-gpt}
+}
+```
+
+## License
+
+MIT License - see LICENSE file for details.
+
+## Acknowledgments
+
+- Based on Andrej Karpathy's GPT tutorial
+- Inspired by Anthropic's interpretability research
