@@ -91,8 +91,8 @@ This demonstrates **causal influence**, not just correlation.
 ```bash
 git clone https://github.com/shivamim/self-diagnosing-gpt.git
 cd self-diagnosing-gpt
-pip install -e 
-
+pip install -e
+```
 
 ## Documentation
 
