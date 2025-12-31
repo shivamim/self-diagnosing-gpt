@@ -70,4 +70,4 @@ MIT License - see LICENSE file for details.
 ## Acknowledgments
 
 - Based on Andrej Karpathy's GPT tutorial
-- Inspired by Anthropic's interpretability research
+
