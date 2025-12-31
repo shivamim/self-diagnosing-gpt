@@ -41,6 +41,7 @@ See `examples/demo.py` for complete demonstrations:
 - Neuron ablation experiments
 
 ## Architecture
+
 Input → Embeddings → Transformer Blocks → LayerNorm
 ├─→ LM Head → Next Token
 └─→ Confidence Head → Uncertainty
@@ -54,7 +55,7 @@ Input → Embeddings → Transformer Blocks → LayerNorm
 
 ## Citation
 ```bibtex
-@software{self_diagnosing_gpt2024,
+@software{self_diagnosing_gpt2026,
   author = {Shivam Shukla},
   title = {Self-Diagnosing GPT with Mechanistic Interpretability},
   year = {2026},
